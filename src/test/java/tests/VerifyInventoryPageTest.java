@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class VerifyInventoryPageTest extends BaseTest {
 
-	@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+	@Test
 	public void verifyInventoryPageTest() {
 
 		LoginPage lp = new LoginPage(driver);

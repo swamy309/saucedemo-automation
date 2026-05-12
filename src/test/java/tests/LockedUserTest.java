@@ -7,7 +7,7 @@ import pages.LoginPage;
 
 public class LockedUserTest extends BaseTest {
 
-	@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+	@Test
 	public void lockedUserTest() {
 
 		LoginPage lp = new LoginPage(driver);

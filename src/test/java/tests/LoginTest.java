@@ -10,7 +10,7 @@ public class LoginTest extends BaseTest {
 
 	LoginPage lp;
 
-	@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+	@Test
 	public void loginTest() {
 
 		lp = new LoginPage(driver);

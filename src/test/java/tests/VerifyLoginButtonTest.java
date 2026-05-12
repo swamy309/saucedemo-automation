@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class VerifyLoginButtonTest extends BaseTest {
 
-	@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+	@Test
 	public void verifyLoginButtonTest() {
 
 		LoginPage lp = new LoginPage(driver);

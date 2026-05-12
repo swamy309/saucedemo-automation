@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class EmptyPasswordTest extends BaseTest {
 
-    @Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+    @Test
     public void emptyPasswordTest() {
 
         LoginPage lp = new LoginPage(driver);

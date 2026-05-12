@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class VerifyURLTest extends BaseTest {
 
-	@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
+	@Test
 	public void verifyURLTest() {
 
 		LoginPage lp = new LoginPage(driver);

@@ -7,17 +7,16 @@ import base.BaseTest;
 import pages.LoginPage;
 
 public class VerifyUsernameFieldTest extends BaseTest {
-	
-	
-		@Test(retryAnalyzer = utilities.RetryAnalyzer.class)
-		public void verifyUsernameFieldTest() {
 
-			LoginPage lp = new LoginPage(driver);
+	@Test
+	public void verifyUsernameFieldTest() {
 
-			boolean status = lp.usernameFieldDisplayed();
+		LoginPage lp = new LoginPage(driver);
 
-			System.out.println("Username Field Displayed : " + status);
+		boolean status = lp.usernameFieldDisplayed();
 
-			Assert.assertTrue(status);
-		}
+		System.out.println("Username Field Displayed : " + status);
+
+		Assert.assertTrue(status);
+	}
 }
